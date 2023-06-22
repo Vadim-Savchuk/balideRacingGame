@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-import UserCar from '../userCar/UserCar';
+import UserCar  from '../userCar/UserCar';
 import Opponent from '../opponent/Opponent';
 
 import getRandomInt from '../../functions/random';
@@ -59,7 +59,6 @@ function Field({ setRightDown, setLeftDown, setLosе }) {
                 return (
                     <div className='square' key={square}>
                         {(isLeftBoundary || isRightBoundary) && (<img className='border-img' src={borderImg} alt="Barrier" />)}
-
 
                         {opponents.map(opponent => {
                             return (

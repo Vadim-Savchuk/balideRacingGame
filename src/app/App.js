@@ -1,8 +1,8 @@
 import { useState } from 'react';
 
-import Field from '../components/field/Field';
+import Field   from '../components/field/Field';
 import Buttons from '../components/buttons/Buttons';
-import Lost from '../components/lost/Lost';
+import Lost    from '../components/lost/Lost';
 
 function App() {
     const [losе, setLosе]           = useState(false);
@@ -11,7 +11,6 @@ function App() {
 
     return (
         <div className="game">
-
             {losе
                 ? (
                     <Lost />

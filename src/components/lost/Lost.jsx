@@ -1,7 +1,6 @@
 import './Lost.css';
 
 function Lost() {
-
     const restartGame = () => {
         window.location.reload()
     }
@@ -9,7 +8,7 @@ function Lost() {
     return (
         <div className='lost'>
             <h2 className='mini-title'>You Lost</h2>
-            <button className='button' onClick={restartGame}>Restart</button>
+            <button className='button' onClick={restartGame}>Menu</button>
         </div>
     );
 }
