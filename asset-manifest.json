@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/balideRacingGame/static/css/main.27727334.css",
+    "main.js": "/balideRacingGame/static/js/main.063b35e7.js",
+    "static/js/787.f139187b.chunk.js": "/balideRacingGame/static/js/787.f139187b.chunk.js",
+    "index.html": "/balideRacingGame/index.html",
+    "main.27727334.css.map": "/balideRacingGame/static/css/main.27727334.css.map",
+    "main.063b35e7.js.map": "/balideRacingGame/static/js/main.063b35e7.js.map",
+    "787.f139187b.chunk.js.map": "/balideRacingGame/static/js/787.f139187b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27727334.css",
+    "static/js/main.063b35e7.js"
+  ]
+}
