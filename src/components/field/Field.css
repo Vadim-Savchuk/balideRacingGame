@@ -1,0 +1,18 @@
+.field {
+    height: 320px;
+    display: flex;
+    max-width: 330px;
+    overflow: hidden;
+    flex-wrap: wrap-reverse;
+}
+
+.square {
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    background-color: #666666;
+}
+
+.border-img {
+    background-color: #bd8848;
+}

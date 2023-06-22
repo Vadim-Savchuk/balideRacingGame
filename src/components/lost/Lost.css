@@ -1,0 +1,20 @@
+.lost {
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.mini-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #666;
+    bottom: 2px solid black;
+}

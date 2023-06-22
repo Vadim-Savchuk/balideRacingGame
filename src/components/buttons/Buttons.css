@@ -1,0 +1,15 @@
+.buttons {
+    gap: 10px;
+    display: flex;
+}
+
+.key {
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: #bd8848;
+}
+
+.key.active {
+    background-color: #6f4a1c;
+}

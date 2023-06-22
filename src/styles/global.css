@@ -1,0 +1,26 @@
+@import url('./normalize.css');
+
+#root,
+.game {
+    height: 100%;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.game {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+    color: palevioletred;
+    border-bottom: 2px solid palevioletred;
+}
